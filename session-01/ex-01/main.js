@@ -1,9 +1,10 @@
 /*
-Programul preia de la utilizator o valoare numerica si afiseaza
-   1. intr-un singur mesaj, o secventa de text ce contine: numarului anterior, numarul primit, numarul succesiv (ex. 5 => "4, 5, 6")
-   2. opusul numarului (ex. 5 => "opusul numarului 5 este -5", -3 => "opusul numarului -3 este 3")
-   3. restul impartirii la 2 (ex. 5 => "restul impartirii lui 5 la 2 este 1")
-   4. 2 la puterea valorii (ex. 3 => "2 la puterea 3 este 8")
+## CHALLENGE 1: Number Relations
+Create a program takes a numeric value from the user and displays:
+1. In a single message, a sequence of text containing: the previous number, the given number, and the next number (e.g., 5 => "4, 5, 6").
+2. The opposite of the number (e.g., 5 => "the opposite of 5 is -5", -3 => "the opposite of -3 is 3").
+3. The remainder of the division by 2 (e.g., 5 => "the remainder of 5 divided by 2 is 1").
+4. Number 2 raised to the power of the given value (e.g., 3 => "2 to the power of 3 is 8").
 */
 
 console.log('main.js loaded...');
