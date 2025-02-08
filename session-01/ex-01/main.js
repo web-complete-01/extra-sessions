@@ -6,13 +6,22 @@ Programul preia de la utilizator o valoare numerica si afiseaza
    4. 2 la puterea valorii (ex. 3 => "2 la puterea 3 este 8")
 */
 
-console.log('main.js loaded...'); 
+console.log('main.js loaded...');
 
-let inputNr = prompt('Input a number'); 
+let inputNr = prompt('Input a number');
 inputNr = Number(inputNr);
 
 let prevNr = inputNr - 1;
 let nextNr = inputNr + 1;
 
-// alert('The numbers sequece: ' + prevNr + ', ' + inputNr + ', ' + nextNr);
-alert(`The numbers sequence: ${prevNr}, ${inputNr}, ${nextNr}`);
+alert('The numbers sequece: ' + prevNr + ', ' + inputNr + ', ' + nextNr);
+// alert(`The numbers sequence: ${prevNr}, ${inputNr}, ${nextNr}`);
+
+alert('The opposite of ' + inputNr + ' is: ' + -inputNr);
+// alert(`The opposite of ${inputNr} is: ${-inputNr}`);
+
+alert('The remainder of ' + inputNr + ' divided by 2 is: ' + inputNr % 2);
+// alert(`The remainder of ${inputNr} divided by 2 is: ${inputNr % 2}`);
+
+alert(`2 to the power of ` + inputNr + ` equals: ` + 2**inputNr);
+// alert(`2 to the power of ${inputNr} equals: ${2**inputNr}`);
