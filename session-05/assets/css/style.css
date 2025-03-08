@@ -52,3 +52,9 @@ body{
     aspect-ratio: 2/3;
 }
 
+
+@media screen and (max-width: 425px){
+    .display{
+        width: 95vw;
+    }
+}

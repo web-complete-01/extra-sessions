@@ -1,5 +1,11 @@
 
 function createCarousel(parentElem, images, title = 'Carousel' , displayCssClasses = [`display-square`]){
+    // optional - preload images
+    for (let i = 0; i < images.length; i++) {
+        const img = new Image();
+        img.src = images[i];
+    }
+
     // create the container
     const container = document.createElement('div');
     container.classList.add(`carousel`);
