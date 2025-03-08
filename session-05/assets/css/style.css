@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+}
+
+#main{
+    background-color: aliceblue;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.menu{
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.75rem;
+}
+
+.menu button{
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+}
+
+.display {
+    background-color: beige;
+    border: 1px solid rgb(60, 60, 60);
+    width: 500px;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.5s ease-in-out;
+}
+
+.display-square{
+    aspect-ratio: 1;
+}
+
+.display-3-2{
+    aspect-ratio: 3/2;
+}
+
+.display-2-3{
+    aspect-ratio: 2/3;
+}
+
