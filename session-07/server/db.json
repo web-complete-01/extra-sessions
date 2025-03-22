@@ -1,0 +1,19 @@
+{
+  "products": [
+    {
+      "name": "Socks",
+      "price": "58",
+      "id": "c0b1"
+    },
+    {
+      "id": "764b",
+      "name": "Cat food",
+      "price": "5.55"
+    },
+    {
+      "id": "b8e7",
+      "name": "Rum",
+      "price": "51.55"
+    }
+  ]
+}
