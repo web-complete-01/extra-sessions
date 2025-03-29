@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "name": "Adi",
+      "location": "Brasov",
+      "hobbies": [
+        "coding",
+        "teaching",
+        "rafting",
+        "boxing"
+      ],
+      "rating": 4.67,
+      "available": true,
+      "id": 1
+    },
+    {
+      "name": "Ana",
+      "location": "Cluj",
+      "hobbies": [
+        "coding",
+        "running",
+        "travelling"
+      ],
+      "rating": 4.95,
+      "available": true,
+      "id": 2
+    },
+    {
+      "name": "Petrică",
+      "location": "Iași",
+      "hobbies": [
+        "food"
+      ],
+      "rating": 4.58,
+      "available": false,
+      "id": 4
+    },
+    {
+      "name": "Dan",
+      "location": "Dej",
+      "hobbies": [
+        "travel"
+      ],
+      "rating": 3.58,
+      "available": false,
+      "id": 5
+    }
+  ]
+}
