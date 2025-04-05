@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "email": "test@test.com",
+      "password": "$2a$10$jeeNkEyFEWK6dc2zZo7kXug2tW4FeU0Bl/FfqqtKvXo1PLNbFq8FG",
+      "name": "Dorel",
+      "id": 1
+    },
+    {
+      "email": "testa@test.com",
+      "password": "$2a$10$Pte.vd8vdI9ap5j7iL7a8u4lq4RhwTVYzx.FUE8llj.5SvBh079xC",
+      "name": "Cristel",
+      "id": 2
+    }
+  ],
+  "messages": [
+    {
+      "message": "Hello stranger",
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "message": "My bad!",
+      "userId": 2,
+      "id": 2
+    },
+    {
+      "message": "Welcome to the Node Land",
+      "userId": 2,
+      "id": 3
+    },
+    {
+      "message": "This is Dorel",
+      "userId": 1,
+      "id": 4
+    }
+  ]
+}
