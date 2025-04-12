@@ -1,0 +1,11 @@
+#display-players{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+
+#display-players .player-container{
+    border: 1px solid grey;
+    padding: 1rem;
+    width: 10rem;
+}
