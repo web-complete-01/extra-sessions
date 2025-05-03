@@ -1,0 +1,16 @@
+#display li {
+    display: flex;
+}
+
+#display li span:nth-child(-n+3) {
+    color: rgb(174, 130, 0);
+}
+
+#display li span:nth-child(-n+2)::after {
+    content: '.';
+}
+
+#display li span:nth-child(4){
+    padding-left: 1rem;
+    color: darkmagenta;
+}
