@@ -6,29 +6,6 @@ const requestOptions = {
     // text: 'roman'
 }
 
-const eventListContainer = document.querySelector('#display');
-
-const historicalEvents = [
-    {
-        "year": "1200",
-        "month": "05",
-        "day": "22",
-        "event": "King John of England and King Philip II of France sign the Treaty of Le Goulet."
-    },
-    {
-        "year": "1200",
-        "month": "08",
-        "day": "24",
-        "event": "King John of England, signer of the first Magna Carta, marries Isabella of Angoul\u00eame in Angoul\u00eame Cathedral."
-    },
-    {
-        "year": "1200",
-        "month": "10",
-        "day": "08",
-        "event": "Isabella of Angoul\u00eame is crowned Queen consort of England."
-    }
-]
-
 function getHistoricalEvents(apiKey, requestOptions) {
     return new Promise(async (resolve, reject) => {
         if (!apiKey) {
@@ -66,9 +43,9 @@ function getHistoricalEvents(apiKey, requestOptions) {
     })
 }
 
-getHistoricalEvents(apiKey, requestOptions)
-    .then(data => displayHistoricalEvents(eventListContainer, data))
-    .catch(error => console.error(error))
+// getHistoricalEvents(apiKey, requestOptions)
+//     .then(data => displayHistoricalEvents(eventListContainer, data))
+//     .catch(error => console.error(error))
 
 
 // create an ordered list in the specified parent element, displaying the events list given as a parameter
@@ -103,4 +80,28 @@ function displayHistoricalEvents(parentElement, eventsList){
 }
 
 
+const eventListContainer = document.querySelector('#display');
+
+
+
+// const historicalEvents = [
+//     {
+//         "year": "1200",
+//         "month": "05",
+//         "day": "22",
+//         "event": "King John of England and King Philip II of France sign the Treaty of Le Goulet."
+//     },
+//     {
+//         "year": "1200",
+//         "month": "08",
+//         "day": "24",
+//         "event": "King John of England, signer of the first Magna Carta, marries Isabella of Angoul\u00eame in Angoul\u00eame Cathedral."
+//     },
+//     {
+//         "year": "1200",
+//         "month": "10",
+//         "day": "08",
+//         "event": "Isabella of Angoul\u00eame is crowned Queen consort of England."
+//     }
+// ]
 // displayHistoricalEvents(eventListContainer, historicalEvents);
